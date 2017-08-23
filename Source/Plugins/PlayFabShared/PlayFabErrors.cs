@@ -328,7 +328,9 @@ namespace PlayFab
         InvalidAuthToken = 1326,
         AuthTokenDoesNotExist = 1327,
         AuthTokenExpired = 1328,
-        AuthTokenAlreadyUsedToResetPassword = 1329
+        AuthTokenAlreadyUsedToResetPassword = 1329,
+        MembershipNameTooLong = 1330,
+        MembershipNotFound = 1331
     }
 
     public delegate void ErrorCallback(PlayFabError error);
